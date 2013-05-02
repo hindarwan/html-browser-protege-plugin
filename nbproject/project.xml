@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.ant.freeform</type>
+    <configuration>
+        <general-data xmlns="http://www.netbeans.org/ns/freeform-project/1">
+            <name>browser plugin</name>
+        </general-data>
+        <general-data xmlns="http://www.netbeans.org/ns/freeform-project/2">
+            <!-- Do not use Project Properties customizer when editing this file manually. -->
+            <name>browser plugin</name>
+            <properties/>
+            <folders>
+                <source-folder>
+                    <label>browser plugin</label>
+                    <location>.</location>
+                    <encoding>windows-1252</encoding>
+                </source-folder>
+                <source-folder>
+                    <label>src</label>
+                    <type>java</type>
+                    <location>src</location>
+                    <encoding>windows-1252</encoding>
+                </source-folder>
+            </folders>
+            <ide-actions>
+                <action name="build">
+                    <target>compile</target>
+                </action>
+                <action name="clean">
+                    <target>clean</target>
+                </action>
+                <action name="run">
+                    <target>install</target>
+                </action>
+                <action name="rebuild">
+                    <target>clean</target>
+                    <target>compile</target>
+                </action>
+            </ide-actions>
+            <view>
+                <items>
+                    <source-folder style="packages">
+                        <label>src</label>
+                        <location>src</location>
+                    </source-folder>
+                    <source-file>
+                        <location>build.xml</location>
+                    </source-file>
+                </items>
+                <context-menu>
+                    <ide-action name="build"/>
+                    <ide-action name="rebuild"/>
+                    <ide-action name="clean"/>
+                    <ide-action name="run"/>
+                </context-menu>
+            </view>
+            <subprojects/>
+        </general-data>
+        <java-data xmlns="http://www.netbeans.org/ns/freeform-project-java/1">
+            <compilation-unit>
+                <package-root>src</package-root>
+                <classpath mode="compile">C:\Program Files\Protege_4.3\plugins\ca.uvic.cs.chisel.cajun.jar;C:\Program Files\Protege_4.3\plugins\org.coode.dlquery.jar;C:\Program Files\Protege_4.3\plugins\org.coode.owlviz.jar;C:\Program Files\Protege_4.3\plugins\org.protege.editor.owl.codegeneration.jar;C:\Program Files\Protege_4.3\plugins\org.protege.editor.owl.diff.jar;C:\Program Files\Protege_4.3\plugins\org.protege.editor.owl.jar;C:\Program Files\Protege_4.3\plugins\org.protege.editor.owl.rdf.jar;C:\Program Files\Protege_4.3\plugins\org.protege.explanation.jar;C:\Program Files\Protege_4.3\plugins\org.protege.ontograf.jar;C:\Program Files\Protege_4.3\plugins\org.protege.owl.diff.jar;C:\Program Files\Protege_4.3\plugins\org.protege.owl.rdf.jar;C:\Program Files\Protege_4.3\plugins\org.semanticweb.HermiT.jar;C:\Program Files\Protege_4.3\plugins\org.semanticweb.owl.owlapi.jar;C:\Program Files\Protege_4.3\plugins\uk.ac.manchester.cs.owl.factplusplus.jar;C:\Program Files\Protege_4.3\bundles\org.apache.felix.bundlerepository-1.4.2.jar;C:\Program Files\Protege_4.3\bundles\org.apache.felix.configadmin.jar;C:\Program Files\Protege_4.3\bundles\org.apache.felix.scr.jar;C:\Program Files\Protege_4.3\bundles\org.eclipse.equinox.common.jar;C:\Program Files\Protege_4.3\bundles\org.eclipse.equinox.registry.jar;C:\Program Files\Protege_4.3\bundles\org.eclipse.equinox.supplement.jar;C:\Program Files\Protege_4.3\bundles\org.protege.common.jar;C:\Program Files\Protege_4.3\bundles\org.protege.editor.core.application.jar;C:\Program Files\Protege_4.3\bundles\org.protege.jaxb.jar;lib/MozillaGlue-1.9.jar;lib/MozillaInterfaces-1.9.jar;lib/commons-compress-1.0.jar;lib/commons-io-1.3.2.jar;lib/commons-logging-1.1.1.jar;lib/jbrowser-1.9.jar;lib/jna-3.2.2.jar;lib/mozdom4java-stable.jar;lib/xulrunner-windows-1.9.jar;F:\Master\Semantic Web\html\jsoup-1.7.2.jar</classpath>
+                <source-level>1.5</source-level>
+            </compilation-unit>
+        </java-data>
+    </configuration>
+</project>

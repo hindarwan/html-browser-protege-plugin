@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?eclipse version="3.0"?>
+
+<plugin>
+   <extension id="BrowserView"
+              point="org.protege.editor.core.application.ViewComponent">
+      <label value="Browser View"/>
+      <class value="com.wordpress.erenha.protege.browser.BrowserView"/>
+   </extension>
+   <extension id="ExtractedTextView"
+              point="org.protege.editor.core.application.ViewComponent">
+      <label value="Extracted Text View"/>
+      <class value="com.wordpress.erenha.protege.browser.ExtractedTextView"/>
+   </extension>
+   <extension id="BrowserWorkspaceTab"
+              point="org.protege.editor.core.application.WorkspaceTab">
+      <label value="Browser Tab"/>
+      <class value="org.protege.editor.owl.ui.OWLWorkspaceViewsTab"/>
+      <index value="X"/>
+      <editorKitId value="OWLEditorKit"/>
+      <defaultViewConfigFileName value="viewconfig-browserTab.xml"/>
+   </extension>
+</plugin>

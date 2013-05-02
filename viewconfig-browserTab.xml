@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <VSNode splits="1.0">
+        <HSNode splits="0.25">
+            <VSNode splits="0.023774067077054723 0.08103416054774823">
+                <CNode>
+                    <Component label="Extracted Text View">
+                        <Property id="pluginId" value="com.wordpress.erenha.protege.browser.ExtractedTextView"/>
+                    </Component>
+                </CNode>
+                <CNode>
+                    <Component label="Browser View">
+                        <Property id="pluginId" value="com.wordpress.erenha.protege.browser.BrowserView"/>
+                    </Component>
+                </CNode>
+            </VSNode>
+        </HSNode>
+    </VSNode>
+</layout>
